@@ -1,0 +1,21 @@
+{
+  "name": "genpark-personal-agent-mitochondrial-citrate-synthase-density-skill",
+  "version": "1.0.0",
+  "description": "Skeletal muscle biomarker Citrate Synthase (CS) mitochondrial volume density & aerobic capacity index.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "evaluate_mitochondrial_citrate_synthase_density",
+      "description": "Skeletal muscle biomarker Citrate Synthase (CS) mitochondrial volume density & aerobic capacity index.",
+      "sample_input": {
+        "cs_activity_umol_min_mg": 26.5,
+        "vo2_max_ml_kg_min": 45.2,
+        "weekly_zone2_hours": 3.0
+      }
+    }
+  ]
+}
